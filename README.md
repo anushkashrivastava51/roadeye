@@ -15,6 +15,14 @@ It is a single self-contained page — no build step.
 
 Internet is needed for map tiles and Google Fonts.
 
+## Android app (install on phone)
+
+RoadEye is an installable PWA (manifest + service worker).
+
+1. Open https://anushkashrivastava51.github.io/roadeye/ in **Chrome** on Android.
+2. Menu (⋮) → **Add to Home screen / Install app** → Install.
+3. Open **RoadEye** from the home screen — it runs full-screen like a native app, with camera and GPS access.
+
 ## Live (GitHub Pages)
 
 Repo → Settings → Pages → Source: `main` branch, `/ (root)` → Save.

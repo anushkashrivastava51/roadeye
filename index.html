@@ -3,6 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0b1220">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <title>RoadEye — AI Road Damage Detection &amp; Smart Reporting</title>
 <style>/* Leaflet 1.9.4 (BSD-2-Clause) */
 /* required styles */
@@ -2313,4 +2317,5 @@ setTimeout(()=>{
   }
 },1400);
 </script>
+<script>if('serviceWorker' in navigator&&location.protocol.startsWith('http')){navigator.serviceWorker.register('sw.js').catch(()=>{})}</script>
 </body></html>
